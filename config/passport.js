@@ -124,6 +124,8 @@ async function generateRandomHashedPassword() {
   }
 }
 
+// test thử push
+
 passport.use(new FacebookStrategy({
   accessToken: process.env.accessToken,
   clientID: process.env.FACEBOOK_APP_ID,
